@@ -4,8 +4,8 @@ def square_array(array)
   # your code here
   
   
-  array.each do |num| number = (num ** 2) 
-  new_array.pop(number)
+  array.each do |num| sqrnum = (num ** 2) 
+  new_array.pop(sqrnum)
   
   end
   return new_array
