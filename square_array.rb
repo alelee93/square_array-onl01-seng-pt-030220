@@ -6,9 +6,8 @@ def square_array(array)
   new_array=[]
   
   array.each do |num| 
-  sqrnum = (num ** 2) 
-  new_array.push(sqrnum)
-   return new_array
+  new_array.push(num ** 2)
+  new_array
   end
  
 end
